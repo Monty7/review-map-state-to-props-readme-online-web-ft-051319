@@ -9,7 +9,7 @@ class App extends Component {
     this.props.store.dispatch({
       type: 'GET_COUNT_OF_ITEMS',
     });
-  }
+  } 
 
   handleOnClickUsers() {
     this.props.store.dispatch({
@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   render() {
-    // debugger;
+     debugger;
     return (
       <div className="App">
           <button onClick={() => this.handleOnClickItems()}>
